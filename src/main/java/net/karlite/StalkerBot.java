@@ -23,14 +23,12 @@ public class StalkerBot extends DiscordBot {
 
     @Override
     public void update(double delta) {
-        String serverId = "1720719";
-
         lastApiMessage += delta;
 
         if(lastApiMessage < API_UPDATE_TIME)
             return;
 
-        var players = battleMetricsService.getOnlinePlayers(serverId);
+        var players = battleMetricsService.getOnlinePlayers(properties.serverId());
         for(Player player : battleMetricsService.getTrackedPlayers()) {
 
             PlayerState previous = player.getState();

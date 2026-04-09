@@ -45,3 +45,4 @@ bin/
 ## project files ###
 token.txt
 players.txt
+bot.properties
