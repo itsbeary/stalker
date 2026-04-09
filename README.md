@@ -1,6 +1,6 @@
 # stalker
 
-A discord bot that allows you to track players activity on a server [Battle Metrics](https://www.battlemetrics.com/)
+A discord bot that allows you to track players activity on a server using the [Battle Metrics](https://www.battlemetrics.com/) API
 
 
 ## Setup
